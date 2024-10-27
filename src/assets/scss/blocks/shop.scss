@@ -1,0 +1,105 @@
+.container_shop {
+    display: none;
+    position: relative;
+    width: 100%;
+    height: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.container_shop.active{
+    display: flex;
+}
+.container_btn_shop{
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding-bottom: 1.5em;
+}
+.btn_shop{
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border-radius: 1em;
+    background-color: transparent;
+    color: #00b09b;
+    border: .1px solid #00b09b;
+    font-size: 1.5em;
+}
+.btn_shop:hover{
+    background: lighten(#00b09b, 25%);
+    color: #fff;
+    transform: scale(1.1);
+    transition: .5s;
+}
+.btn_shop.active{
+    background: lighten(#00b09b, 25%);
+    color: #fff;
+}
+.card {
+    width: 300px;
+    height: 450px;
+    background-color: darkgray;
+    flex-direction: column;
+    margin: 1em .5em;
+}
+
+.card_title {
+    padding-top: .5em;
+}
+
+.card_img {
+    width: 100%;
+    height: auto;
+}
+
+.card_details {
+    padding-top: .5em;
+    display: flex;
+    justify-content: center;
+}
+.h4_card_title{
+    color: #00b09b;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.items_control {
+    padding: .1em 1.2em;
+    border: .1em solid darkgray;
+    border-radius: .5em;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 2px darken(darkgray, 25%);
+}
+.items_control:hover{
+    transform: scaleY(1.2);
+    transition: .2s;
+    background-color: #00b09b;
+}
+.items_current {
+    padding: .1em 1.2em;
+    border: .1em solid darkgray;
+    border-radius: .5em;
+    box-shadow: 0px 0px 5px 2px darken(darkgray, 25%);
+    margin: 0 .2em;
+}
+.card_price {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    padding: .2em 0;
+}
+
+.card_btn {
+    padding: .6em 3.5em;
+    border-radius: 1em;
+    cursor: pointer;
+    border: .1em solid #00b09b;
+    box-shadow: 0px 0px 5px 2px darken(darkgray, 25%);
+    color: #fff;
+    background-color: #00b09b;
+    margin-top: 1em;
+}
+.card_btn:hover{
+    transform: scale(1.2);
+    transition: .5s;
+}
+

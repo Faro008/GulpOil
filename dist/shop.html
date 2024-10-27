@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <meta charset="UTF-8">
+<link rel="stylesheet" href="assets/css/style.min.css">
+<!-- Useful meta tags -->
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100&family=Corinthia&family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<meta name="robots" content="index, follow">
+<meta name="google" content="notranslate">
+<meta name="format-detection" content="telephone=no">
+<meta name="description" content="">
+<title>Интернет магазин автомобильного масла в Воронеже.</title>
+ </head>
+
+<body>
+	   <div class="nav_blocks">
+		   <div class="nav">
+			   <button class="burger" type="button" id="navToggle">
+				   <span class="burger__item">MENU</span>
+			   </button>
+		   </div>
+	   </div>
+	   <aside class="sidebar">
+		   <img class="avto_aside" src="assets/images/TruckAside.jpg" alt="">
+		   <div class="card_sidebar">
+
+		   </div>
+		   <div class="total">
+			 <span class="total_sapan"></span>
+			  <h4>Total Price</h4>
+			   <div class="delivery_price" data-delivery>0</div>
+			   <div class="total_price" data-price>0</div>
+		   </div>
+		   <div class="btn_aside">
+			   <button class="red_btn_aside">
+				   <p class="span_btn_aside">купить масло</p>
+			   </button>
+			   <button class="green_btn_aside">
+			   <p class="span_btn_aside">заменить масло</p>
+			   </button>
+		   </div>
+	   </aside>
+
+	   <div class="wrapper"> <img src="assets/images/petronas-2-white.svg" alt="залить масло Petronas">
+		   <h1>Купить масла PETRONAS с доставкой в Воронеже</h1>
+		   <div class="container_btn_shop">
+			   <button class="btn_shop" data-btn="#sintium">Sintium</button>
+			   <button class="btn_shop" data-btn="#urania">Urania</button>
+			   <button class="btn_shop" data-btn="#agro">Agro</button>
+		   </div>
+		   <div class="container_shop" id="sintium">
+			   <div class="card" data-id="01">
+					   <img class="card_img" src="assets/images/img-PETRONAS-Syntium-7000-hybrid-0W-20.png" alt="">
+					   <div class="card_title">
+						   <h4 class="h4_card_title">Petronas Sintium 3000</h4>
+					   </div>
+					   <div class="card_price">
+						   <div class="price_vol">4L</div>
+						   <div class="price_cur">2400р</div>
+					   </div>
+					   <div class="card_details">
+						   <div class="items_control" data-action="minus">-</div>
+						   <div class="items_current" data-counter>1</div>
+						   <div class="items_control" data-action="plus">+</div>
+					   </div>
+					   <button data-cart type="button" class="card_btn">+ в корзину</button>
+			   </div>
+				<div class="card" data-id="02">
+					   <img class="card_img" src="assets/images/img-PETRONAS-Syntium-7000-hybrid-0W-20.png" alt="">
+					   <div class="card_title">
+						   <h4 class="h4_card_title">Petronas Sintium 3000</h4>
+					   </div>
+					   <div class="card_price">
+						   <div class="price_vol">1.7L</div>
+						   <div class="price_cur">1600р</div>
+					   </div>
+					   <div class="card_details">
+						   <div class="items_control" data-action="minus">-</div>
+						   <div class="items_current" data-counter>1</div>
+						   <div class="items_control" data-action="plus">+</div>
+					   </div>
+					   <button data-cart type="button" class="card_btn">+ в корзину</button>
+			   </div>
+		   </div>
+
+		   <div class="container_shop" id="urania">
+			   <div class="card" data-id="01">
+					   <img class="card_img" src="assets/images/img-PETRONAS-Syntium-7000-hybrid-0W-20.png" alt="">
+					   <div class="card_title">
+						   <h4 class="h4_card_title">Petronas</h4>
+						   <p>Sintium 3000</p>
+					   </div>
+					   <div class="card_price">
+						   <div class="price_vol">4L</div>
+						   <div class="price_cur">2400р</div>
+					   </div>
+					   <div class="card_details">
+						   <div class="items_control" data-action="minus">-</div>
+						   <div class="items_current" data-counter>1</div>
+						   <div class="items_control" data-action="plus">+</div>
+					   </div>
+					   <button data-cart type="button" class="card_btn">+ в корзину</button>
+			   </div>
+		   </div>
+
+		   <div class="container_shop" id="agro">
+			   <div class="card" data-id="01">
+					   <img class="card_img" src="assets/images/img-PETRONAS-Syntium-7000-hybrid-0W-20.png" alt="">
+					   <div class="card_title">
+						   <h4 class="h4_card_title">Petronas</h4>
+						   <p>Sintium 3000</p>
+					   </div>
+					   <div class="card_price">
+						   <div class="price_vol">4L</div>
+						   <div class="price_cur">2400р</div>
+					   </div>
+					   <div class="card_details">
+						   <div class="items_control" data-action="minus">-</div>
+						   <div class="items_current" data-counter>1</div>
+						   <div class="items_control" data-action="plus">+</div>
+					   </div>
+					   <button data-cart type="button" class="card_btn">+ в корзину</button>
+			   </div>
+		   </div>
+	   </div>
+	   <div class="footer">
+		   <div class="footer_container">
+			   <div class="footer_logo"> <img class="footer_img" src="assets/images/petronas-1.svg" alt=""> <address>г. Воронеж 394001 <br>
+				   ул. Воронежская д. ? к.?
+				   </address> tel: +7 (903) 654-23-76 </div>
+			   <div class="footer_icon">
+				   <div class="footer_iconc"> <a class="iconc" href="https://vk.com/"><i class="fab fa-vk"></i></a> <a class="iconc" href="https://ok.ru/"><i class="fab fa-odnoklassniki"></i></a> <a class="iconc" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a> <a class="iconc" href="https://twitter.com/"><i class="fab fa-twitter"></i></a> <a class="iconc" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a> <a class="iconc" href="https://telegram.org/"><i class="fab fa-telegram"></i></a> <a class="iconc" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a> </div>
+			   </div>
+			   <div class="footer_link">
+				   <ul>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+
+
+
+				   </ul>
+				   <ul>
+					  <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   <li> <a href="">Petronas</a></li>
+					   </ul>
+			   </div>
+		   </div>
+		   <div class="copiraite">
+			   <span class="span_copiraite">©</span>
+			   <div class="copiraite_data" id="data"></div>
+			   <span class="span_copiraite"> "Масло Petronas в Воронеже"</span> </div>
+	   </div>
+
+	<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script  src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+
+</html>

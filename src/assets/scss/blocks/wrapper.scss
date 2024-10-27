@@ -1,0 +1,67 @@
+.wrapper{
+    background-color: #171819;
+    width: auto;
+    max-width: 1200px;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-left: calc(100%/10 + 300px);
+    margin-right: calc(100%/10);
+    padding-top: 50px;
+    box-shadow: 0px 0px 5px 5px rgba(23, 24, 25, 80%);
+    overflow: hidden;
+}
+.collage_wrapper{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.collage_wrapper_img{
+    position: relative;
+    width: 50%;
+    height: auto;
+    padding: 2px 2px;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.img_collage_wrapper{
+    width: 100%;
+    height: auto;
+}
+.collage_wrapper_txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4em;
+    background: rgb(32, 34, 34);
+    background: linear-gradient(180deg, rgba(32, 34, 34, 1) 1%, rgba(158, 233, 224, 1) 100%);
+}
+.collage_wrapper_block{
+    display: flex;
+}
+.txt_block_urania{
+    display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 3em;
+    text-align: center;
+    justify-content: center;
+    background: rgb(32, 34, 34);
+    background: linear-gradient(180deg, rgba(32, 34, 34, 1) 1%, rgba(158, 233, 224, 1) 100%);
+}
+.txt_block_urania_block{
+    width: 350px;
+    height: auto;
+    padding: 25px 25px;
+}
+.img_block_urania{
+    width: 3em;
+    height: 3em;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: #000;
+    font-size: 1rem;
+    color: white;
+    font-family: 'Alumni Sans', sans-serif;
+    font-family: 'Corinthia', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin: 0 0;
+}
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+p, h4{margin-block-start: 0em;
+}
+p, h4{margin-block-end: 0em;
+}
+li{list-style: none;}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*Blocks*/
+@import "blocks/header";
+@import "blocks/slider";
+@import "blocks/container";
+@import "blocks/main";
+@import "blocks/sidebar";
+@import "blocks/wrapper";
+@import "blocks/slidersec";
+@import "blocks/bannerwrapper";
+@import "blocks/footer";
+@import "blocks/shop";
